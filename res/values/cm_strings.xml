@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2006 The Android Open Source Project
+<!--
+     Copyright (c) 2011-2013, The Linux Foundation. All rights reserved.
+     Copyright (C) 2014-2015 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,14 +15,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.phone.common.dialpad.DialpadKeyButton
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/pound"
-    style="@style/DialpadKeyButtonStyle">
-    <LinearLayout
-        style="@style/SpecialCharInternalLayoutStyle" >
-        <TextView
-            android:id="@id/dialpad_key_number"
-            style="@style/DialpadKeyPoundStyle"/>
-    </LinearLayout>
-</com.android.phone.common.dialpad.DialpadKeyButton>
+<resources>
+    <!-- In-call screen: call failure reason (call ended due to low battery) -->
+    <string name="callFailed_low_battery">Low battery</string>
+
+    <string name="to_hint" translatable="false">1111:to;sip:abby@example.com:bcc;sip:bill@example.com:cc;</string>
+</resources>
